@@ -1,0 +1,17 @@
+label {
+  color: var(--main-color);
+  transition: top 500ms;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.top-60 {
+  top: 55px;
+}
+
+div {
+  margin-bottom: 20px;
+}

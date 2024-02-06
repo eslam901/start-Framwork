@@ -1,0 +1,8 @@
+nav {
+  background-color: var(--second-color);
+  transition: padding 500ms;
+}
+
+.active {
+  background-color: var(--main-color);
+}

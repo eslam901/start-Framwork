@@ -1,0 +1,12 @@
+<div class="portfolio">
+  <div class="container">
+    <div class="py-3">
+      <app-star title="CONATCT SECTION" bg="bg-black"></app-star>
+      <div class="row">
+        <form class="col-md-7 mx-auto">
+          <app-input *ngFor="let input of inputs" [input]="input"></app-input>
+          <button class="btn text-white">send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>

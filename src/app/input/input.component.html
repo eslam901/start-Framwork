@@ -1,0 +1,7 @@
+<div>
+  <label [for]="input" class="position-relative" [class]="inputValue? 'top-0':'top-60'">
+    {{input}} :
+  </label>
+  <input type="text" [id]="input" [placeholder]="input" [(ngModel)]="inputValue"
+    class="form-control border-0 border-bottom py-3 rounded-0 position-relative">
+</div>
